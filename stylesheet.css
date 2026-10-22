@@ -1,0 +1,14 @@
+p {
+    color: green;
+}
+.highlight {
+    color: purple;
+}
+#intro{
+    background-color: lightyellow;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+a:hover{
+    color: hotpink;
+}
