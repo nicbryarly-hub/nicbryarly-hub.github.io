@@ -1,5 +1,6 @@
 p {
     color: green;
+    font-size: 18px
 }
 .highlight {
     color: purple;
@@ -11,4 +12,49 @@ p {
 }
 a:hover{
     color: hotpink;
+}
+body{
+    font-family: Arial, Sans-Serif;
+}
+img{
+    width: 300px;
+    height: auto;
+    border: 3px solid purple;
+    border-radius:12px;
+}
+button:hover{
+    background-color:lightblue;
+}
+button{
+    background-color:purple;
+    color: white;
+    border: 3px solid orange;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+ul{
+    background-color:lightblue;
+    color: green;
+    border-radius: 12px;
+    padding: 20px 40px
+}
+
+details{
+    background-color: lavender;
+    padding: 15px;
+    border-radius: 12px;
+}
+summary{
+    cursor: pointer;
+    font-weight: bold;
+}
+#plantName{
+    padding: 20px;
+    border: 2px solid purple;
+    border-radius: 8px;
+    font-size: 16px;
+}
+#plantName:focus{
+    background-color: lightyellow;
 }
