@@ -32,6 +32,8 @@ button{
     border-radius: 12px;
     padding: 10px 20px;
     cursor: pointer;
+    transition: background-color .2s;
+    box-shadow: 4px 4px 8px gray
 }
 ul{
     background-color:lightblue;
@@ -57,4 +59,25 @@ summary{
 }
 #plantName:focus{
     background-color: lightyellow;
+}
+#likesPlants{
+    accent-color: purple;
+}
+#plantChoice{
+    background-color: lightblue;
+    color: purple;
+    padding: 10px;
+    border: 2px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-left:10px;
+}
+#plantNotes{
+    width: 300px;
+    padding: 10px;
+    border: 2px solid purple;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 16px;
+    background-color:lavender;
 }
